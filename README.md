@@ -17,6 +17,7 @@ https://pedsovet.org/
 
 ### 1. Клонируйте репозиторий
 git clone https://github.com/nailyamustafina22-png/parsing_pedsovet.git
+
 cd parsing_pedsovet
 
 ### 2. Создайте виртуальное окружение:
@@ -95,3 +96,4 @@ python parse_pedagogy.py
 - .gitignore - исключает venv/, __pycache__/, articles.json
 
 - articles.json - результаты
+
