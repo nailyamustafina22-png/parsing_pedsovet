@@ -24,7 +24,9 @@ cd parsing_pedsovet
 python -m venv venv
 
 ### 3. Активируйте виртуальное окружение:
-venv\Scripts\activate
+source venv/bin/activate #Linux/Mac
+
+venv\Scripts\activate #Windows
 
 ### 4. Установите зависимости:
 pip install -r requirements.txt
@@ -96,4 +98,5 @@ python parse_pedagogy.py
 - .gitignore - исключает venv/, __pycache__/, articles.json
 
 - articles.json - результаты
+
 
