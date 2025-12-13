@@ -77,20 +77,6 @@ json
 
 - JSON - сохранение результатов
 
-## Быстрый старт
-```bash
-git clone https://github.com/nailyamustafina22-png/parsing_pedsovet.git
-cd parsing_pedsovet
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-```
-
-## Запуск
-```bash
-python parse_pedagogy.py
-```
-
 ## Структура проекта
 - parse_pedagogy.py - основной скрипт парсера
 - requirements.txt - зависимости: beautifulsoup4, requests, lxml
@@ -98,5 +84,6 @@ python parse_pedagogy.py
 - .gitignore - исключает venv/, __pycache__/, articles.json
 
 - articles.json - результаты
+
 
 
